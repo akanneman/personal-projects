@@ -1,11 +1,11 @@
-# Habit Tracker CLI
+# Task Tracker CLI
 
 A simple command-line tool for tracking daily tasks. Logs are stored in a JSON file for easy persistence.
 
 ## Features
 
-- Add daily habit entries
-- View full habit log by date
+- Add daily task entries
+- View full task log by date
 - Simple, no dependencies
 
 ## How to Use
@@ -19,17 +19,17 @@ Then follow the prompts.
 ## Example
 
 ```
-1. Log a habit
+1. Log a task
 2. View log
 3. Exit
 Choose an option: 1
-What habit did you complete today? Studied Python
-Habit logged for 2025-07-04.
+What task did you complete today? Studied Python
+Task logged for 2025-07-04.
 ```
 
 ## File Output
 
-Habits are stored in `tasks.txt` like this:
+Task are stored in `tasks.txt` like this:
 
 ```json
 {
